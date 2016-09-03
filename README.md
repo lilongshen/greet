@@ -1,0 +1,2 @@
+# greet
+javascript practice
