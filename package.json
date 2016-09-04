@@ -9,7 +9,7 @@
   "scripts": {
     "build": "babel src --out-dir lib",
     "watch": "babel src --out-dir lib --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha 'lib/**/*_test.js'"
   },
   "keywords": [],
   "author": "lilongshen",
@@ -23,6 +23,8 @@
     "babel-core": "^6.14.0",
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.14.0",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
     "webpack": "^1.13.2"
   }
 }
